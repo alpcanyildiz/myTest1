@@ -6,10 +6,7 @@ import com.emusicstore.model.Kullanici;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,6 +16,8 @@ import java.util.List;
 
 public class BenimDenememController {
 
+//u benim dünyam pekte yaralıııı
+
 
     @Autowired
     BenimDao benimDao;
@@ -27,7 +26,7 @@ public class BenimDenememController {
     public String deneme(Model model){
 
         Kullanici kullanici= new Kullanici();
-
+        int i =5;
         model.addAttribute("k",kullanici);
 
         return "BenimDenemem";
