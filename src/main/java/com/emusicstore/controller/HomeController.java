@@ -22,6 +22,7 @@ public class HomeController {
         return "home";
     }
 
+    // yeni bi değişilik
 
     @RequestMapping("/productList")
     public String getProducts(Model model) {
