@@ -16,7 +16,6 @@ import java.util.List;
 
 public class BenimDenememController {
 
-//u benim dünyam pekte yaralıııı
 
 
     @Autowired
